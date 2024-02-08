@@ -1,0 +1,1 @@
+{ "data": { "username": "user", "roles": ["admin"] }, "code": 0, "message": "获取用户详情成功" }

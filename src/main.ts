@@ -19,8 +19,7 @@ import "@/styles/index.scss"
 //mock
 import "@/mock/index"
 //axios
-import axios from "@/utils/request"
-
+import { request } from "@/utils/service"
 const app = createApp(App)
 
 /** 加载插件 */
@@ -30,9 +29,10 @@ loadSvg(app)
 /** 加载自定义指令 */
 loadDirectives(app)
 /** global axios */
-app.config.globalProperties.$axios = axios
+app.config.globalProperties.$axios = request
 
 app.use(store).use(router)
+
 router.isReady().then(() => {
   app.mount("#app")
 })

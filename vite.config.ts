@@ -33,17 +33,17 @@ export default (configEnv: ConfigEnv): UserConfigExport => {
       /** 端口被占用时，是否直接退出 */
       strictPort: false,
       /** 接口代理/映射 */
-      proxy: {
-        "/api/v1": {
-          target: "https://www.fastmock.site/mock/9a707e2d54baf552a041f0c0fe97b310/mock",
-          ws: true,
-          /** 是否允许跨域 */
-          changeOrigin: true
-          /** https退化 https://juejin.cn/post/7264496638874452023 */
-          // secure: true
-          // rewrite: (path) => path.replace("/api/v1", "")
-        }
-      },
+      // proxy: {
+      //   "/api/v1": {
+      //     target: "http://localhost:8080/api/v1",
+      //     ws: true,
+      //     /** 是否允许跨域 */
+      //     changeOrigin: true
+      //     /** https退化 https://juejin.cn/post/7264496638874452023 */
+      //     // secure: true
+      //     // rewrite: (path) => path.replace("/api/v1", "")
+      //   }
+      // },
 
       /** 预热常用文件，提高初始页面加载速度 */
       warmup: {
