@@ -1,4 +1,5 @@
 import { type AppRouteModule } from "@/router/types"
+// @ts-ignore
 const Layouts = () => import("@/layouts/index.vue")
 
 const permission: AppRouteModule = {

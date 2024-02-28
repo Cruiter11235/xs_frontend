@@ -7,6 +7,7 @@
     "moduleResolution": "bundler",
     /** TS 严格模式 */
     "strict": true,
+    "strictNullChecks": false,
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "importHelpers": true,
