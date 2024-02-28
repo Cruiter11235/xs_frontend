@@ -1,7 +1,6 @@
 <div align="center">
   <img alt="XiaoSong" width="120" height="120" src="./src/assets/layouts/logo.png">
   <h1>XiaoSong</h1>
-  <span>English | <a href="./README.zh-CN.md">中文</a></span>
 </div>
 
 ## 💡 Introduction
